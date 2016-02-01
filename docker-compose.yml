@@ -1,0 +1,6 @@
+db:
+  image: postgres
+tests:
+  build: .
+  links:
+  - db
